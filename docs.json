@@ -1,0 +1,36 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "x402 on Canton",
+  "favicon": "/logo/favicon.svg",
+  "colors": {
+    "primary": "#997EF9",
+    "light": "#A985FF",
+    "dark": "#7B59E8"
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Get Started",
+        "pages": ["index"]
+      },
+      {
+        "group": "Guides",
+        "pages": ["x402-payments", "x402-agent", "x402-merchant"]
+      }
+    ]
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "GitHub",
+        "href": "https://github.com/Denend/x402-canton-docs"
+      }
+    ]
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/Denend"
+    }
+  }
+}
